@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mobigic_assignment"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:2:5-66
+11-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:3:5-65
+12-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:3:22-62
+13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+13-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:4:5-75
+13-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:4:22-73
+14    <uses-permission
+14-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:5:5-80
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:5:22-77
+16        android:maxSdkVersion="32" />
+16-->[:file_picker] /home/shreeyash/Documents/GitHub/mobigic_assignment_app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-35
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:6:5-80
+17-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:6:22-78
+18    <!--
+19         Required to query activities that can process text, see:
+20         https://developer.android.com/training/package-visibility and
+21         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+22
+23         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+24    -->
+25    <queries>
+25-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:44:5-49:15
+26        <intent>
+26-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:45:9-48:18
+27            <action android:name="android.intent.action.PROCESS_TEXT" />
+27-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:46:13-72
+27-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:46:21-70
+28
+29            <data android:mimeType="text/plain" />
+29-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:47:13-50
+29-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:47:19-48
+30        </intent>
+31        <intent>
+31-->[:file_picker] /home/shreeyash/Documents/GitHub/mobigic_assignment_app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:18
+32            <action android:name="android.intent.action.GET_CONTENT" />
+32-->[:file_picker] /home/shreeyash/Documents/GitHub/mobigic_assignment_app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-72
+32-->[:file_picker] /home/shreeyash/Documents/GitHub/mobigic_assignment_app/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-69
+33
+34            <data android:mimeType="*/*" />
+34-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:47:13-50
+34-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:47:19-48
+35        </intent>
+36    </queries>
+37
+38    <application
+39        android:name="android.app.Application"
+39-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:9:9-42
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.6.0] /home/shreeyash/.gradle/caches/transforms-3/284a410c767ad6c7a2b0ffc8d8d85981/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+41        android:icon="@mipmap/ic_launcher"
+41-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:10:9-43
+42        android:label="mobigic_assignment" >
+42-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:8:9-43
+43        <activity
+43-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:11:9-32:20
+44            android:name="com.example.mobigic_assignment.MainActivity"
+44-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:12:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:17:13-163
+46            android:exported="true"
+46-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:13:13-36
+47            android:hardwareAccelerated="true"
+47-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:18:13-47
+48            android:launchMode="singleTop"
+48-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:14:13-43
+49            android:taskAffinity=""
+49-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:15:13-36
+50            android:theme="@style/LaunchTheme"
+50-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:16:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:19:13-55
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+59-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:24:13-27:17
+60                android:name="io.flutter.embedding.android.NormalTheme"
+60-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:25:15-70
+61                android:resource="@style/NormalTheme" />
+61-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:26:15-52
+62
+63            <intent-filter>
+63-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:28:13-31:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:29:17-68
+64-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:29:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:30:17-76
+66-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:30:27-74
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+73-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:35:9-37:33
+74            android:name="flutterEmbedding"
+74-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:36:13-44
+75            android:value="2" />
+75-->/home/shreeyash/Documents/GitHub/mobigic_assignment_app/android/app/src/main/AndroidManifest.xml:37:13-30
+76
+77        <uses-library
+77-->[androidx.window:window:1.0.0-beta04] /home/shreeyash/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+78            android:name="androidx.window.extensions"
+78-->[androidx.window:window:1.0.0-beta04] /home/shreeyash/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0-beta04] /home/shreeyash/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+80        <uses-library
+80-->[androidx.window:window:1.0.0-beta04] /home/shreeyash/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+81            android:name="androidx.window.sidecar"
+81-->[androidx.window:window:1.0.0-beta04] /home/shreeyash/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0-beta04] /home/shreeyash/.gradle/caches/transforms-3/f302e75fb7efd781bcf1a29281c188da/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+83    </application>
+84
+85</manifest>

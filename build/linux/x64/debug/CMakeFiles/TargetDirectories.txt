@@ -1,0 +1,14 @@
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/CMakeFiles/mobigic_assignment.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/CMakeFiles/edit_cache.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/CMakeFiles/rebuild_cache.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/CMakeFiles/list_install_components.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/CMakeFiles/install.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/CMakeFiles/install/local.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/CMakeFiles/install/strip.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/flutter/CMakeFiles/flutter_assemble.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/flutter/CMakeFiles/edit_cache.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/flutter/CMakeFiles/rebuild_cache.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/flutter/CMakeFiles/list_install_components.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/flutter/CMakeFiles/install.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/flutter/CMakeFiles/install/local.dir
+/home/shreeyash/Documents/flutter_project/mobigic_assignment/build/linux/x64/debug/flutter/CMakeFiles/install/strip.dir

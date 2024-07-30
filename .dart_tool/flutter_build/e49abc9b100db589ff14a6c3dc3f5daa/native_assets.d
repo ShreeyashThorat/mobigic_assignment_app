@@ -1,0 +1,1 @@
+ /home/shreeyash/Documents/GitHub/mobigic_assignment_app/.dart_tool/flutter_build/e49abc9b100db589ff14a6c3dc3f5daa/native_assets.yaml: 
