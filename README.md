@@ -32,7 +32,11 @@ Here are the dependencies used in this project:
 
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc) (Version 8.1.3): Flutter-specific bloc features.
 
-- [Flutter Spinkit](https://pub.dev/packages/flutter_spinkit) (Version 5.2.0): A collection of loading indicators for Flutter.
+- [file_picker](https://pub.dev/packages/flutter_spinkit) (Version 8.0.6): Flutter library to pick file from device.
+  
+- [permission_handler](https://pub.dev/packages/permission_handler) (Version 11.3.1): Flutter library to check status for storage permission.
+
+- [path_provider](https://pub.dev/packages/path_provider) (Version 2.1.4): Flutter library to provide a path to save downloaded file
 
 - [Cached Network Image](https://pub.dev/packages/cached_network_image) (Version 3.3.0): Flutter library to load and cache network images.
 
